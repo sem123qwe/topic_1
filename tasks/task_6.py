@@ -1,12 +1,8 @@
-a = 3
-b = 7
-c = -3
-d = 5
+a: int = 3
+b: int = 7
+c: int = -3
+d: int = 5
 
-average = (a*c)+b+d  # здесь Ваш код
+average: float = (a + b + c + d) / 4
 
-print(average)  # допишите код
-
-# Эти примеры могут быть полезны, для решения этой задачи
-# 2 + 4 * 3 = 14
-# (2 + 4) * 3 = 18
+print(average)

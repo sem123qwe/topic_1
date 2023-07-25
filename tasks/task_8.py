@@ -1,13 +1,6 @@
-a = "3.8"
-b = "15"
+a: str = "3.8"
+b: str = "15"
 
-f = int(15)
+multi: int = int(float(a)) * int(b)
 
-s = float(3.8)
-
-
-
-
-multi = s * f # здесь Ваш код
-
-print(multi)  # допишите код
+print(multi)

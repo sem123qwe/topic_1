@@ -1,8 +1,11 @@
-a = 5
-b = 7
+a: int = 5
+b: int = 7
 
-add = a+b  # здесь Ваш код
-multi = a*b  # здесь Ваш код
+add: int = a + b
+multi: int = a * b
 
-print( add )  # допишите код
-print( multi )  # допишите код
+# print('Сумма чисел: ' + str(add))
+# print('Произведение чисел: ' + str(multi))
+
+print('Сумма чисел:', add)
+print('Произведение чисел:', multi)

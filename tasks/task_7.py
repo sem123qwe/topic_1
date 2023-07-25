@@ -1,14 +1,6 @@
-a = "-16"
-b = "39.8"
+a: str = "-16"
+b: str = "39.8"
 
-d = int(-16)
+add: float = int(a) + float(b)
 
-print(d)
-
-c = float(39.8)
-
-print(c)
-
-add = d + c  # здесь Ваш код
-
-print(add)  # допишите код
+print(add)
